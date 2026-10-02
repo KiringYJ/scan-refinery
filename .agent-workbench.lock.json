@@ -1,0 +1,624 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-01T23:03:30Z",
+  "source": {
+    "repo": "KiringYJ/agent-workbench",
+    "branch": "main",
+    "requestedRef": "main",
+    "resolvedCommit": "0c11a24f19e705f1be1b4ca3c520fcf1045e3f38"
+  },
+  "manifestDigest": "sha256:eb064cf62aa7e01de592996eb69f836e4581f0bc6138ebd21d152e78fc251f28",
+  "profile": "python",
+  "syncMode": "full",
+  "targets": {
+    "guide": true,
+    "claude": true,
+    "codex": true,
+    "gemini": true,
+    "opencode": true,
+    "portable_prompts": true,
+    "portable_skills": true
+  },
+  "scopes": {
+    "guide": {
+      "resolvedCommit": "0c11a24f19e705f1be1b4ca3c520fcf1045e3f38",
+      "manifestDigest": "sha256:eb064cf62aa7e01de592996eb69f836e4581f0bc6138ebd21d152e78fc251f28",
+      "lastReconciledAt": "2026-10-01T23:03:30Z"
+    },
+    "entrypoints": {
+      "resolvedCommit": "0c11a24f19e705f1be1b4ca3c520fcf1045e3f38",
+      "manifestDigest": "sha256:eb064cf62aa7e01de592996eb69f836e4581f0bc6138ebd21d152e78fc251f28",
+      "lastReconciledAt": "2026-10-01T23:03:30Z"
+    },
+    "portable_prompts": {
+      "resolvedCommit": "0c11a24f19e705f1be1b4ca3c520fcf1045e3f38",
+      "manifestDigest": "sha256:eb064cf62aa7e01de592996eb69f836e4581f0bc6138ebd21d152e78fc251f28",
+      "lastReconciledAt": "2026-10-01T23:03:30Z"
+    },
+    "portable_skills": {
+      "resolvedCommit": "0c11a24f19e705f1be1b4ca3c520fcf1045e3f38",
+      "manifestDigest": "sha256:eb064cf62aa7e01de592996eb69f836e4581f0bc6138ebd21d152e78fc251f28",
+      "lastReconciledAt": "2026-10-01T23:03:30Z"
+    }
+  },
+  "installedArtifacts": [
+    {
+      "id": "guide:AI_AGENT_GUIDE.md",
+      "kind": "guide",
+      "scope": "guide",
+      "name": "AI_AGENT_GUIDE.md",
+      "sourcePath": "templates/AI_AGENT_GUIDE.md.tpl",
+      "outputPath": "AI_AGENT_GUIDE.md",
+      "sourceChecksum": "sha256:15c765fdb2074ed57ed9d863a120f2f236a467e7ee542e16110b4a69294e6d00",
+      "lastAppliedOutputChecksum": "sha256:362090428bf358a729de62e24ac301228bac57f55565a20a58460db5ba43e702",
+      "resourceManifest": [
+        {
+          "sourcePath": "guide/base.md",
+          "sourceChecksum": "sha256:7e4d877fe216d73338ec3b1e8623299a7e23e78b56c59aaaf81628dac59839e8"
+        },
+        {
+          "sourcePath": "guide/prompting.md",
+          "sourceChecksum": "sha256:f62926c9cf87db9f7a0341d6338abe19540dd5308b834ae4185a7f3e9694b0b7"
+        },
+        {
+          "sourcePath": "guide/git.md",
+          "sourceChecksum": "sha256:44c8207bd5914161c15f7494d14197bb042ebc8639e0f16224718c559f68bf40"
+        },
+        {
+          "sourcePath": "guide/repository-workspace.md",
+          "sourceChecksum": "sha256:437871586f3d69b1ce3d608add9e20200acef39e3d129945e40453b3ca2c08ea"
+        },
+        {
+          "sourcePath": "guide/security.md",
+          "sourceChecksum": "sha256:b411efdf94ca37adf4b2bef8c6898f9e2b02fd6be0b046ede8e922e19a26862d"
+        },
+        {
+          "sourcePath": "guide/testing.md",
+          "sourceChecksum": "sha256:c731723aab3d702eb8f0de0b272059fd3fcb9cf57dd45072596a68b3f40a916a"
+        },
+        {
+          "sourcePath": "guide/review.md",
+          "sourceChecksum": "sha256:866d3b778a6e1ffba8914f427adfe61f3e70352ffe429204603aa4d9c648e939"
+        },
+        {
+          "sourcePath": "guide/workflows.md",
+          "sourceChecksum": "sha256:81e63708d0167525e1f71e4a6892439dd19765b9e700cb964fd025f01498b377"
+        },
+        {
+          "sourcePath": "guide/languages/python.md",
+          "sourceChecksum": "sha256:db60f6ba3884b9e84b67bafcad738214c4e84ad69b8b7ed6b184b358be3598d5"
+        }
+      ],
+      "markerVersion": "agent-workbench: managed",
+      "profile": "python",
+      "managed": true
+    },
+    {
+      "id": "platform_binding:.claude/agents/tier-critical-proof.md",
+      "kind": "platform_binding",
+      "scope": "entrypoints",
+      "name": ".claude/agents/tier-critical-proof.md",
+      "sourcePath": "templates/claude-agents/tier-critical-proof.md.tpl",
+      "outputPath": ".claude/agents/tier-critical-proof.md",
+      "sourceChecksum": "sha256:de5e894eb5430b265ac91d4d4b01e3498ccbedc00d2503ce955324b30b1de678",
+      "lastAppliedOutputChecksum": "sha256:de5e894eb5430b265ac91d4d4b01e3498ccbedc00d2503ce955324b30b1de678",
+      "resourceManifest": [],
+      "markerVersion": "agent-workbench: managed platform-binding",
+      "profile": "python",
+      "managed": true
+    },
+    {
+      "id": "platform_binding:.claude/agents/tier-mixed.md",
+      "kind": "platform_binding",
+      "scope": "entrypoints",
+      "name": ".claude/agents/tier-mixed.md",
+      "sourcePath": "templates/claude-agents/tier-mixed.md.tpl",
+      "outputPath": ".claude/agents/tier-mixed.md",
+      "sourceChecksum": "sha256:bbbca1b7c2ce3e0968fe39ec57376b73da6295d04b950fe464c5c80ef77cd268",
+      "lastAppliedOutputChecksum": "sha256:bbbca1b7c2ce3e0968fe39ec57376b73da6295d04b950fe464c5c80ef77cd268",
+      "resourceManifest": [],
+      "markerVersion": "agent-workbench: managed platform-binding",
+      "profile": "python",
+      "managed": true
+    },
+    {
+      "id": "platform_binding:.claude/agents/tier-peripheral.md",
+      "kind": "platform_binding",
+      "scope": "entrypoints",
+      "name": ".claude/agents/tier-peripheral.md",
+      "sourcePath": "templates/claude-agents/tier-peripheral.md.tpl",
+      "outputPath": ".claude/agents/tier-peripheral.md",
+      "sourceChecksum": "sha256:96f897cf2ab41ceadabb8d9855ca0dc627784c75ab3e49b74c4a133060e9b679",
+      "lastAppliedOutputChecksum": "sha256:96f897cf2ab41ceadabb8d9855ca0dc627784c75ab3e49b74c4a133060e9b679",
+      "resourceManifest": [],
+      "markerVersion": "agent-workbench: managed platform-binding",
+      "profile": "python",
+      "managed": true
+    },
+    {
+      "id": "platform_binding:.claude/agents/tier-research-math.md",
+      "kind": "platform_binding",
+      "scope": "entrypoints",
+      "name": ".claude/agents/tier-research-math.md",
+      "sourcePath": "templates/claude-agents/tier-research-math.md.tpl",
+      "outputPath": ".claude/agents/tier-research-math.md",
+      "sourceChecksum": "sha256:6197a87c2255e3f1406fea16e1b6869472354da687dcfca15f6e765152fe38f2",
+      "lastAppliedOutputChecksum": "sha256:6197a87c2255e3f1406fea16e1b6869472354da687dcfca15f6e765152fe38f2",
+      "resourceManifest": [],
+      "markerVersion": "agent-workbench: managed platform-binding",
+      "profile": "python",
+      "managed": true
+    },
+    {
+      "id": "platform_binding:.claude/agents/tier-technical.md",
+      "kind": "platform_binding",
+      "scope": "entrypoints",
+      "name": ".claude/agents/tier-technical.md",
+      "sourcePath": "templates/claude-agents/tier-technical.md.tpl",
+      "outputPath": ".claude/agents/tier-technical.md",
+      "sourceChecksum": "sha256:350d7d22cef199c8240ea0c3b03a69d818f2661dbf5b428321bc981799958164",
+      "lastAppliedOutputChecksum": "sha256:350d7d22cef199c8240ea0c3b03a69d818f2661dbf5b428321bc981799958164",
+      "resourceManifest": [],
+      "markerVersion": "agent-workbench: managed platform-binding",
+      "profile": "python",
+      "managed": true
+    },
+    {
+      "id": "platform_binding:.claude/rules/agent-routing.md",
+      "kind": "platform_binding",
+      "scope": "entrypoints",
+      "name": ".claude/rules/agent-routing.md",
+      "sourcePath": "templates/claude.agent-routing.md.tpl",
+      "outputPath": ".claude/rules/agent-routing.md",
+      "sourceChecksum": "sha256:75a5a2a5ce5219798105f3149d004f1fa81892150e3519ffb673b6b03891a361",
+      "lastAppliedOutputChecksum": "sha256:75a5a2a5ce5219798105f3149d004f1fa81892150e3519ffb673b6b03891a361",
+      "resourceManifest": [],
+      "markerVersion": "agent-workbench: managed platform-binding",
+      "profile": "python",
+      "managed": true
+    },
+    {
+      "id": "platform_binding:.codex/agent-routing.md",
+      "kind": "platform_binding",
+      "scope": "entrypoints",
+      "name": ".codex/agent-routing.md",
+      "sourcePath": "templates/codex.agent-routing.md.tpl",
+      "outputPath": ".codex/agent-routing.md",
+      "sourceChecksum": "sha256:d51110e2c18f9888f001ffa9874d3fabe5da34c5d6036dc1b573451239755dbd",
+      "lastAppliedOutputChecksum": "sha256:d51110e2c18f9888f001ffa9874d3fabe5da34c5d6036dc1b573451239755dbd",
+      "resourceManifest": [],
+      "markerVersion": "agent-workbench: managed platform-binding",
+      "profile": "python",
+      "managed": true
+    },
+    {
+      "id": "vendor_config:.codex/config.toml",
+      "kind": "vendor_config",
+      "scope": "entrypoints",
+      "name": ".codex/config.toml",
+      "sourcePath": "templates/codex.config.toml.tpl",
+      "outputPath": ".codex/config.toml",
+      "sourceChecksum": "sha256:66a15c3a407577c7e01dd956613f5ac46ea3a94be0cd311d57246bbe8974f96c",
+      "lastAppliedOutputChecksum": "sha256:66a15c3a407577c7e01dd956613f5ac46ea3a94be0cd311d57246bbe8974f96c",
+      "resourceManifest": [],
+      "markerVersion": "none",
+      "profile": "python",
+      "managed": true
+    },
+    {
+      "id": "entrypoint:AGENTS.md",
+      "kind": "entrypoint",
+      "scope": "entrypoints",
+      "name": "AGENTS.md",
+      "sourcePath": "templates/AGENTS.md.tpl",
+      "outputPath": "AGENTS.md",
+      "sourceChecksum": "sha256:a543594c2181b383a5a7ab8a3a90aa30b21c2b10c8b61e2c301d0cb082b1666c",
+      "lastAppliedOutputChecksum": "sha256:a543594c2181b383a5a7ab8a3a90aa30b21c2b10c8b61e2c301d0cb082b1666c",
+      "resourceManifest": [],
+      "markerVersion": "none",
+      "profile": "python",
+      "managed": true
+    },
+    {
+      "id": "entrypoint:CLAUDE.md",
+      "kind": "entrypoint",
+      "scope": "entrypoints",
+      "name": "CLAUDE.md",
+      "sourcePath": "templates/CLAUDE.md.tpl",
+      "outputPath": "CLAUDE.md",
+      "sourceChecksum": "sha256:0f8e11dfaa19e708543d56ad8ea5433dd7d8997d10ee5028ebbc3315d92885bc",
+      "lastAppliedOutputChecksum": "sha256:0f8e11dfaa19e708543d56ad8ea5433dd7d8997d10ee5028ebbc3315d92885bc",
+      "resourceManifest": [],
+      "markerVersion": "none",
+      "profile": "python",
+      "managed": true
+    },
+    {
+      "id": "entrypoint:GEMINI.md",
+      "kind": "entrypoint",
+      "scope": "entrypoints",
+      "name": "GEMINI.md",
+      "sourcePath": "templates/GEMINI.md.tpl",
+      "outputPath": "GEMINI.md",
+      "sourceChecksum": "sha256:1380bf0b3d25f0bde0c0c941cdc65fc86b0031298f51e4903fa1df8d2973ecfb",
+      "lastAppliedOutputChecksum": "sha256:1380bf0b3d25f0bde0c0c941cdc65fc86b0031298f51e4903fa1df8d2973ecfb",
+      "resourceManifest": [],
+      "markerVersion": "none",
+      "profile": "python",
+      "managed": true
+    },
+    {
+      "id": "vendor_config:opencode.json",
+      "kind": "vendor_config",
+      "scope": "entrypoints",
+      "name": "opencode.json",
+      "sourcePath": "templates/opencode.json.tpl",
+      "outputPath": "opencode.json",
+      "sourceChecksum": "sha256:ee9dbf45c7eb850f96d52de666435eb6a2a6952a4eb970735ff96ef72d01dee1",
+      "lastAppliedOutputChecksum": "sha256:ee9dbf45c7eb850f96d52de666435eb6a2a6952a4eb970735ff96ef72d01dee1",
+      "resourceManifest": [],
+      "markerVersion": "none",
+      "profile": "python",
+      "managed": true
+    },
+    {
+      "id": "portable_prompt:audit-agent-workbench",
+      "kind": "portable_prompt",
+      "scope": "portable_prompts",
+      "name": "audit-agent-workbench",
+      "sourcePath": "prompts/audit-agent-workbench.md",
+      "outputPath": ".agents/prompts/audit-agent-workbench.md",
+      "sourceChecksum": "sha256:b79cf50409a96c476d8b093fd875f0064557e60bf8ee5c83af6d57d64cee2bf1",
+      "lastAppliedOutputChecksum": "sha256:b79cf50409a96c476d8b093fd875f0064557e60bf8ee5c83af6d57d64cee2bf1",
+      "resourceManifest": [],
+      "markerVersion": "agent-workbench: managed portable-prompt",
+      "profile": "python",
+      "managed": true
+    },
+    {
+      "id": "portable_prompt:commit-workflow",
+      "kind": "portable_prompt",
+      "scope": "portable_prompts",
+      "name": "commit-workflow",
+      "sourcePath": "prompts/commit-workflow.md",
+      "outputPath": ".agents/prompts/commit-workflow.md",
+      "sourceChecksum": "sha256:b4bdd8c0262964dc3211e1f893150fec800c783c74661e82b213572552bec931",
+      "lastAppliedOutputChecksum": "sha256:b4bdd8c0262964dc3211e1f893150fec800c783c74661e82b213572552bec931",
+      "resourceManifest": [],
+      "markerVersion": "agent-workbench: managed portable-prompt",
+      "profile": "python",
+      "managed": true
+    },
+    {
+      "id": "portable_prompt:create-agent-skill",
+      "kind": "portable_prompt",
+      "scope": "portable_prompts",
+      "name": "create-agent-skill",
+      "sourcePath": "prompts/create-agent-skill.md",
+      "outputPath": ".agents/prompts/create-agent-skill.md",
+      "sourceChecksum": "sha256:ab29901cfd7c55526231180636c7a1f3d74acde211b238ca9bfeacddfb76d15c",
+      "lastAppliedOutputChecksum": "sha256:ab29901cfd7c55526231180636c7a1f3d74acde211b238ca9bfeacddfb76d15c",
+      "resourceManifest": [],
+      "markerVersion": "agent-workbench: managed portable-prompt",
+      "profile": "python",
+      "managed": true
+    },
+    {
+      "id": "portable_prompt:create-guardrail",
+      "kind": "portable_prompt",
+      "scope": "portable_prompts",
+      "name": "create-guardrail",
+      "sourcePath": "prompts/create-guardrail.md",
+      "outputPath": ".agents/prompts/create-guardrail.md",
+      "sourceChecksum": "sha256:b1f9966aa7c0e62427a79fb1cdac7a9e9aab5d0d2e1883993a2917a59dadf2ed",
+      "lastAppliedOutputChecksum": "sha256:b1f9966aa7c0e62427a79fb1cdac7a9e9aab5d0d2e1883993a2917a59dadf2ed",
+      "resourceManifest": [],
+      "markerVersion": "agent-workbench: managed portable-prompt",
+      "profile": "python",
+      "managed": true
+    },
+    {
+      "id": "portable_prompt:linus-review",
+      "kind": "portable_prompt",
+      "scope": "portable_prompts",
+      "name": "linus-review",
+      "sourcePath": "prompts/linus-review.md",
+      "outputPath": ".agents/prompts/linus-review.md",
+      "sourceChecksum": "sha256:138bf36aea893d46c31ea2c6ef6ad319fd5ddb658e058093571bdea0b08fcf57",
+      "lastAppliedOutputChecksum": "sha256:138bf36aea893d46c31ea2c6ef6ad319fd5ddb658e058093571bdea0b08fcf57",
+      "resourceManifest": [],
+      "markerVersion": "agent-workbench: managed portable-prompt",
+      "profile": "python",
+      "managed": true
+    },
+    {
+      "id": "portable_prompt:loop-until-done",
+      "kind": "portable_prompt",
+      "scope": "portable_prompts",
+      "name": "loop-until-done",
+      "sourcePath": "prompts/loop-until-done.md",
+      "outputPath": ".agents/prompts/loop-until-done.md",
+      "sourceChecksum": "sha256:115d19eab9aef45667187c6f755306db4326afab5bb41269504779f238facf43",
+      "lastAppliedOutputChecksum": "sha256:115d19eab9aef45667187c6f755306db4326afab5bb41269504779f238facf43",
+      "resourceManifest": [],
+      "markerVersion": "agent-workbench: managed portable-prompt",
+      "profile": "python",
+      "managed": true
+    },
+    {
+      "id": "portable_prompt:repair-agent-workbench",
+      "kind": "portable_prompt",
+      "scope": "portable_prompts",
+      "name": "repair-agent-workbench",
+      "sourcePath": "prompts/repair-agent-workbench.md",
+      "outputPath": ".agents/prompts/repair-agent-workbench.md",
+      "sourceChecksum": "sha256:38d74c938aa0702e39ddeaa3790e2625471e54e7ca56995b1bcd275646e50fe0",
+      "lastAppliedOutputChecksum": "sha256:38d74c938aa0702e39ddeaa3790e2625471e54e7ca56995b1bcd275646e50fe0",
+      "resourceManifest": [],
+      "markerVersion": "agent-workbench: managed portable-prompt",
+      "profile": "python",
+      "managed": true
+    },
+    {
+      "id": "portable_prompt:sync-agent-workbench",
+      "kind": "portable_prompt",
+      "scope": "portable_prompts",
+      "name": "sync-agent-workbench",
+      "sourcePath": "prompts/sync-agent-workbench.md",
+      "outputPath": ".agents/prompts/sync-agent-workbench.md",
+      "sourceChecksum": "sha256:abb8d6e89a0116fad82b8ef7e28e798e3ee16668dd03a95db7ca88d34d9cb30d",
+      "lastAppliedOutputChecksum": "sha256:abb8d6e89a0116fad82b8ef7e28e798e3ee16668dd03a95db7ca88d34d9cb30d",
+      "resourceManifest": [],
+      "markerVersion": "agent-workbench: managed portable-prompt",
+      "profile": "python",
+      "managed": true
+    },
+    {
+      "id": "portable_skill:commit-workflow",
+      "kind": "portable_skill",
+      "scope": "portable_skills",
+      "name": "commit-workflow",
+      "sourcePath": "skills/commit-workflow/SKILL.md",
+      "outputPath": ".agents/skills/commit-workflow/SKILL.md",
+      "sourceChecksum": "sha256:a4f9b3bbb42c5dfb9cfe5b0b54fd322e09b8d03abbaffd552e014f9b489437a1",
+      "lastAppliedOutputChecksum": "sha256:a4f9b3bbb42c5dfb9cfe5b0b54fd322e09b8d03abbaffd552e014f9b489437a1",
+      "resourceManifest": [],
+      "markerVersion": "agent-workbench: managed portable-skill",
+      "profile": "python",
+      "managed": true
+    },
+    {
+      "id": "portable_skill:guardrail-authoring",
+      "kind": "portable_skill",
+      "scope": "portable_skills",
+      "name": "guardrail-authoring",
+      "sourcePath": "skills/guardrail-authoring/SKILL.md",
+      "outputPath": ".agents/skills/guardrail-authoring/SKILL.md",
+      "sourceChecksum": "sha256:78fe6497ffb1776e8fc866b525db14c7af65433a0e13fc58be0c45fb4a2cb79c",
+      "lastAppliedOutputChecksum": "sha256:78fe6497ffb1776e8fc866b525db14c7af65433a0e13fc58be0c45fb4a2cb79c",
+      "resourceManifest": [],
+      "markerVersion": "agent-workbench: managed portable-skill",
+      "profile": "python",
+      "managed": true
+    },
+    {
+      "id": "portable_skill:integrate-chatgpt-conversation",
+      "kind": "portable_skill",
+      "scope": "portable_skills",
+      "name": "integrate-chatgpt-conversation",
+      "sourcePath": "skills/integrate-chatgpt-conversation/SKILL.md",
+      "outputPath": ".agents/skills/integrate-chatgpt-conversation/SKILL.md",
+      "sourceChecksum": "sha256:5966e442bc64ec6b535a1ea158c7f69a69d3f6648531b124f98a994452f7a45f",
+      "lastAppliedOutputChecksum": "sha256:5966e442bc64ec6b535a1ea158c7f69a69d3f6648531b124f98a994452f7a45f",
+      "resourceManifest": [],
+      "markerVersion": "agent-workbench: managed portable-skill",
+      "profile": "python",
+      "managed": true
+    },
+    {
+      "id": "portable_skill:linus-review",
+      "kind": "portable_skill",
+      "scope": "portable_skills",
+      "name": "linus-review",
+      "sourcePath": "skills/linus-review/SKILL.md",
+      "outputPath": ".agents/skills/linus-review/SKILL.md",
+      "sourceChecksum": "sha256:e4e51ae790d7047f354dbe7b45a4079bbb901a20f580a85b0cafe556977da271",
+      "lastAppliedOutputChecksum": "sha256:e4e51ae790d7047f354dbe7b45a4079bbb901a20f580a85b0cafe556977da271",
+      "resourceManifest": [],
+      "markerVersion": "agent-workbench: managed portable-skill",
+      "profile": "python",
+      "managed": true
+    },
+    {
+      "id": "portable_skill:loop-until-done",
+      "kind": "portable_skill",
+      "scope": "portable_skills",
+      "name": "loop-until-done",
+      "sourcePath": "skills/loop-until-done/SKILL.md",
+      "outputPath": ".agents/skills/loop-until-done/SKILL.md",
+      "sourceChecksum": "sha256:e683c49850ee456829bb6403e20f9d5f212fafd509ca120206cfaab6e751e55a",
+      "lastAppliedOutputChecksum": "sha256:e683c49850ee456829bb6403e20f9d5f212fafd509ca120206cfaab6e751e55a",
+      "resourceManifest": [],
+      "markerVersion": "agent-workbench: managed portable-skill",
+      "profile": "python",
+      "managed": true
+    },
+    {
+      "id": "portable_skill:math-pdf-reader",
+      "kind": "portable_skill",
+      "scope": "portable_skills",
+      "name": "math-pdf-reader",
+      "sourcePath": "skills/math-pdf-reader/SKILL.md",
+      "outputPath": ".agents/skills/math-pdf-reader/SKILL.md",
+      "sourceChecksum": "sha256:f28bd1b86ee26f671516ced6da0e081e0a48a6112f639b14b0d9f3e844b69eec",
+      "lastAppliedOutputChecksum": "sha256:f28bd1b86ee26f671516ced6da0e081e0a48a6112f639b14b0d9f3e844b69eec",
+      "resourceManifest": [],
+      "markerVersion": "agent-workbench: managed portable-skill",
+      "profile": "python",
+      "managed": true
+    },
+    {
+      "id": "portable_skill:skill-authoring",
+      "kind": "portable_skill",
+      "scope": "portable_skills",
+      "name": "skill-authoring",
+      "sourcePath": "skills/skill-authoring/SKILL.md",
+      "outputPath": ".agents/skills/skill-authoring/SKILL.md",
+      "sourceChecksum": "sha256:12ad794d47218740a01aac6435f056877cff578df7e029108c0dbe1936ce13e2",
+      "lastAppliedOutputChecksum": "sha256:12ad794d47218740a01aac6435f056877cff578df7e029108c0dbe1936ce13e2",
+      "resourceManifest": [],
+      "markerVersion": "agent-workbench: managed portable-skill",
+      "profile": "python",
+      "managed": true
+    },
+    {
+      "id": "portable_skill:sync-agent-workbench",
+      "kind": "portable_skill",
+      "scope": "portable_skills",
+      "name": "sync-agent-workbench",
+      "sourcePath": "skills/sync-agent-workbench/SKILL.md",
+      "outputPath": ".agents/skills/sync-agent-workbench/SKILL.md",
+      "sourceChecksum": "sha256:15c7bd0871147e6a7fecf161f47d0637e8999ecee48d2b42248213fea897c12d",
+      "lastAppliedOutputChecksum": "sha256:15c7bd0871147e6a7fecf161f47d0637e8999ecee48d2b42248213fea897c12d",
+      "resourceManifest": [
+        {
+          "path": "scripts/migrate_lockfile.rb",
+          "sourceChecksum": "sha256:31dd97b518eaa2f3188f16589248e7a9d48ec447570a15306b899911f3f056b1",
+          "lastAppliedOutputChecksum": "sha256:31dd97b518eaa2f3188f16589248e7a9d48ec447570a15306b899911f3f056b1"
+        },
+        {
+          "path": "scripts/verify_skill_mirror.rb",
+          "sourceChecksum": "sha256:8d6225339a024e52fe90d2e0d63d04c3cad4f38c1b9a30f12572d2d7bfebb457",
+          "lastAppliedOutputChecksum": "sha256:8d6225339a024e52fe90d2e0d63d04c3cad4f38c1b9a30f12572d2d7bfebb457"
+        }
+      ],
+      "markerVersion": "agent-workbench: managed portable-skill",
+      "profile": "python",
+      "managed": true
+    },
+    {
+      "id": "portable_skill:commit-workflow:claude",
+      "kind": "portable_skill",
+      "scope": "portable_skills",
+      "name": "commit-workflow",
+      "sourcePath": "skills/commit-workflow/SKILL.md",
+      "outputPath": ".claude/skills/commit-workflow/SKILL.md",
+      "sourceChecksum": "sha256:a4f9b3bbb42c5dfb9cfe5b0b54fd322e09b8d03abbaffd552e014f9b489437a1",
+      "lastAppliedOutputChecksum": "sha256:a4f9b3bbb42c5dfb9cfe5b0b54fd322e09b8d03abbaffd552e014f9b489437a1",
+      "resourceManifest": [],
+      "markerVersion": "agent-workbench: managed portable-skill",
+      "profile": "python",
+      "managed": true
+    },
+    {
+      "id": "portable_skill:guardrail-authoring:claude",
+      "kind": "portable_skill",
+      "scope": "portable_skills",
+      "name": "guardrail-authoring",
+      "sourcePath": "skills/guardrail-authoring/SKILL.md",
+      "outputPath": ".claude/skills/guardrail-authoring/SKILL.md",
+      "sourceChecksum": "sha256:78fe6497ffb1776e8fc866b525db14c7af65433a0e13fc58be0c45fb4a2cb79c",
+      "lastAppliedOutputChecksum": "sha256:78fe6497ffb1776e8fc866b525db14c7af65433a0e13fc58be0c45fb4a2cb79c",
+      "resourceManifest": [],
+      "markerVersion": "agent-workbench: managed portable-skill",
+      "profile": "python",
+      "managed": true
+    },
+    {
+      "id": "portable_skill:integrate-chatgpt-conversation:claude",
+      "kind": "portable_skill",
+      "scope": "portable_skills",
+      "name": "integrate-chatgpt-conversation",
+      "sourcePath": "skills/integrate-chatgpt-conversation/SKILL.md",
+      "outputPath": ".claude/skills/integrate-chatgpt-conversation/SKILL.md",
+      "sourceChecksum": "sha256:5966e442bc64ec6b535a1ea158c7f69a69d3f6648531b124f98a994452f7a45f",
+      "lastAppliedOutputChecksum": "sha256:5966e442bc64ec6b535a1ea158c7f69a69d3f6648531b124f98a994452f7a45f",
+      "resourceManifest": [],
+      "markerVersion": "agent-workbench: managed portable-skill",
+      "profile": "python",
+      "managed": true
+    },
+    {
+      "id": "portable_skill:linus-review:claude",
+      "kind": "portable_skill",
+      "scope": "portable_skills",
+      "name": "linus-review",
+      "sourcePath": "skills/linus-review/SKILL.md",
+      "outputPath": ".claude/skills/linus-review/SKILL.md",
+      "sourceChecksum": "sha256:e4e51ae790d7047f354dbe7b45a4079bbb901a20f580a85b0cafe556977da271",
+      "lastAppliedOutputChecksum": "sha256:e4e51ae790d7047f354dbe7b45a4079bbb901a20f580a85b0cafe556977da271",
+      "resourceManifest": [],
+      "markerVersion": "agent-workbench: managed portable-skill",
+      "profile": "python",
+      "managed": true
+    },
+    {
+      "id": "portable_skill:loop-until-done:claude",
+      "kind": "portable_skill",
+      "scope": "portable_skills",
+      "name": "loop-until-done",
+      "sourcePath": "skills/loop-until-done/SKILL.md",
+      "outputPath": ".claude/skills/loop-until-done/SKILL.md",
+      "sourceChecksum": "sha256:e683c49850ee456829bb6403e20f9d5f212fafd509ca120206cfaab6e751e55a",
+      "lastAppliedOutputChecksum": "sha256:e683c49850ee456829bb6403e20f9d5f212fafd509ca120206cfaab6e751e55a",
+      "resourceManifest": [],
+      "markerVersion": "agent-workbench: managed portable-skill",
+      "profile": "python",
+      "managed": true
+    },
+    {
+      "id": "portable_skill:math-pdf-reader:claude",
+      "kind": "portable_skill",
+      "scope": "portable_skills",
+      "name": "math-pdf-reader",
+      "sourcePath": "skills/math-pdf-reader/SKILL.md",
+      "outputPath": ".claude/skills/math-pdf-reader/SKILL.md",
+      "sourceChecksum": "sha256:f28bd1b86ee26f671516ced6da0e081e0a48a6112f639b14b0d9f3e844b69eec",
+      "lastAppliedOutputChecksum": "sha256:f28bd1b86ee26f671516ced6da0e081e0a48a6112f639b14b0d9f3e844b69eec",
+      "resourceManifest": [],
+      "markerVersion": "agent-workbench: managed portable-skill",
+      "profile": "python",
+      "managed": true
+    },
+    {
+      "id": "portable_skill:skill-authoring:claude",
+      "kind": "portable_skill",
+      "scope": "portable_skills",
+      "name": "skill-authoring",
+      "sourcePath": "skills/skill-authoring/SKILL.md",
+      "outputPath": ".claude/skills/skill-authoring/SKILL.md",
+      "sourceChecksum": "sha256:12ad794d47218740a01aac6435f056877cff578df7e029108c0dbe1936ce13e2",
+      "lastAppliedOutputChecksum": "sha256:12ad794d47218740a01aac6435f056877cff578df7e029108c0dbe1936ce13e2",
+      "resourceManifest": [],
+      "markerVersion": "agent-workbench: managed portable-skill",
+      "profile": "python",
+      "managed": true
+    },
+    {
+      "id": "portable_skill:sync-agent-workbench:claude",
+      "kind": "portable_skill",
+      "scope": "portable_skills",
+      "name": "sync-agent-workbench",
+      "sourcePath": "skills/sync-agent-workbench/SKILL.md",
+      "outputPath": ".claude/skills/sync-agent-workbench/SKILL.md",
+      "sourceChecksum": "sha256:15c7bd0871147e6a7fecf161f47d0637e8999ecee48d2b42248213fea897c12d",
+      "lastAppliedOutputChecksum": "sha256:15c7bd0871147e6a7fecf161f47d0637e8999ecee48d2b42248213fea897c12d",
+      "resourceManifest": [
+        {
+          "path": "scripts/migrate_lockfile.rb",
+          "sourceChecksum": "sha256:31dd97b518eaa2f3188f16589248e7a9d48ec447570a15306b899911f3f056b1",
+          "lastAppliedOutputChecksum": "sha256:31dd97b518eaa2f3188f16589248e7a9d48ec447570a15306b899911f3f056b1"
+        },
+        {
+          "path": "scripts/verify_skill_mirror.rb",
+          "sourceChecksum": "sha256:8d6225339a024e52fe90d2e0d63d04c3cad4f38c1b9a30f12572d2d7bfebb457",
+          "lastAppliedOutputChecksum": "sha256:8d6225339a024e52fe90d2e0d63d04c3cad4f38c1b9a30f12572d2d7bfebb457"
+        }
+      ],
+      "markerVersion": "agent-workbench: managed portable-skill",
+      "profile": "python",
+      "managed": true
+    }
+  ],
+  "retainedRemovals": []
+}

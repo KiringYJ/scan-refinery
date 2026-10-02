@@ -1,0 +1,25 @@
+source:
+  repo: KiringYJ/agent-workbench
+  branch: main
+profile: python
+modules:
+- base
+- prompting
+- git
+- repository-workspace
+- security
+- testing
+- review
+- workflows
+- languages/python
+targets:
+  guide: true
+  claude: true
+  codex: true
+  gemini: true
+  opencode: true
+  portable_prompts: true
+  portable_skills: true
+preserve:
+  project_file: AI_AGENT_PROJECT.md
+  manual_blocks: true
