@@ -1,0 +1,41 @@
+[build-system]
+requires = ["hatchling>=1.27,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "scan-refinery"
+version = "0.1.0"
+description = "Reproducible scan-PDF alignment with reviewable plans and preserved text layers"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{ name = "KiringYJ" }]
+dependencies = [
+  "numpy>=2.2,<3",
+  "opencv-python-headless>=4.12,<5",
+  "pillow>=11.3,<13",
+  "pymupdf>=1.26.4,<2",
+  "pypdf>=6.1,<7",
+]
+
+[project.scripts]
+scan-refinery = "scan_refinery.cli:main"
+
+[dependency-groups]
+dev = ["pytest>=8.4,<10", "ruff>=0.13,<1", "ty>=0.0.1a20,<1"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/scan_refinery"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ty.environment]
+python-version = "3.11"
